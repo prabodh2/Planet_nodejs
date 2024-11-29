@@ -29,7 +29,6 @@ const planetSchema = mongoose.Schema(
   },
   { timestamps: true }
 );
-
 const planetModel = mongoose.model("users",planetSchema)
 
 export default planetModel
